@@ -1,0 +1,48 @@
+@import '_variables.sass'
+.spatial
+    background-image: url(../img/banner.jpg)
+    background-size: cover
+    background-position: center
+    background-color: #00000074
+    background-blend-mode: darken
+    height: 600px
+    color: white
+    &_menu
+        padding-top: 40px
+        display: flex
+        justify-content: space-between
+        font-size: 1.7em
+        &_liste
+            display: flex
+            &_ind
+                margin: 0px 45px
+        &_logo
+            margin: 0px 60px
+            &_bold
+                font-weight: 800
+    &_central
+        display: flex
+        flex-direction: column
+        align-content: center
+        text-align: center
+        justify-content: center
+        height: 90%
+        gap: 30px
+        &_btn
+            border: none
+            background: $color_btn_red
+            color: white
+            border-radius: 4px
+            padding: 5px 10px
+            width: 250px
+            height: 70px
+            font-size: 1.8em
+            margin: 0px auto
+        &_titre
+            font-weight: 800
+            font-size: 4em
+        &_txt
+            color: $color_sec_title
+            width: 650px
+            font-size: 2em
+            margin: 0px auto

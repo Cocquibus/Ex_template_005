@@ -1,0 +1,139 @@
+@import '_variables.sass'
+.luctus
+    display: flex
+    justify-content: center
+    &_grille
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+        width: 1000px
+        padding: 65px 0px
+        &_titre
+            font-size: 4em
+            width: 400px
+            color: $color_prim_title
+        &_txt
+            color: $color_sec_title
+            font-size: 1.5em
+            width: 400px
+        &_texte
+            color: $color_prim_txt
+.fusce
+    background-color: #F6F6F6
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 50px 0px
+    &_title
+        font-size: 4.5em
+        color: $color_prim_title
+        padding: 100px 0px 0px 0px
+    &_txt
+        color: $color_sec_title
+        font-size: 2em
+    &_btn_red,&_btn_black
+        width: 280px
+        margin: 0px 20px
+        border: none
+        border-radius: 5px
+        padding: 10px
+        font-size: 1.5em
+        color: white
+    &_btn_red
+        background-color: $color_btn_red
+    &_btn_black
+        background-color: $color_btn_black
+    &_card
+        display: flex
+        margin: 40px 0px
+        &_ind
+            margin: 0px 20px
+            width: 600px
+            &_indication
+                background: white
+                width: 100%
+                padding: 30px 0px
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px
+                text-align: center
+                font-size: 2.2em
+                color: $color_prim_txt
+            &_image
+                width: 100%
+.mauris
+    display: flex
+    align-items: center
+    flex-direction: column
+    &_total
+        padding: 100px
+        width: 1350px
+        &_title
+            color: $color_prim_title
+            font-size: 3.5em
+        &_txt
+            color: $color_sec_title
+            font-size: 1.9em
+    &_grille
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+        &_card
+            display: flex
+            text-align: end
+            padding: 40px 20px
+            &_img
+                width: 200px
+                border-radius: 50%
+                margin: 0px 20px
+                border: 10px solid $color_border
+            &_txt
+                width: 400px
+                color: $color_prim_txt
+            &_title
+                color: $color_prim_title
+                font-size: 1.3em
+            &_stitle
+                color: $color_sec_title
+        &_cardd
+            card
+            display: flex
+            text-align: start
+            padding: 40px 20px
+            &_img
+                width: 200px
+                border-radius: 50%
+                margin: 0px 20px
+                border: 10px solid $color_border
+            &_txt
+                width: 400px
+                color: $color_prim_txt
+            &_title
+                color: $color_prim_title
+                font-size: 1.3em
+            &_stitle
+                color: $color_sec_title
+.aenean
+    display: flex
+    margin: 40px 0px
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    background-image: url(../img/banner.jpg)
+    height: 600px
+    background-position: center
+    background-size: cover
+    background-blend-mode: darken
+    background-color: #0000008b
+    &_title
+        padding-top: 70px
+        color: white
+        font-size: 4em
+    &_txt
+        font-size: 2em
+        color: $color_sec_title
+    &_btn
+        margin: 30px 0px 100px 0px
+        border: none
+        background-color: $color_btn_red
+        color: white
+        padding: 20px
+        font-size: 2em
+        width: 350px
+        border-radius: 5px
